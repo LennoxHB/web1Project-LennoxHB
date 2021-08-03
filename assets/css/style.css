@@ -1,19 +1,30 @@
 body{
-    background: black;
+    background: rgb(173, 252, 252);
     color: orange;
     padding: 0px;
     margin: 0px;
 }
-.mess{
+.logo{
+    width:15%;
+    height:auto;
+}
+.motd{
+    font-size: 8.6vw;
+    line-height: 6.6vw;
+    padding: 3vw;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
 }
 .flexible {
     display: flex; width: 100%;
-    height: 100px;
-    justify-content: flex-start;
 }
 .push-right{
     margin-left: auto;
 }
+
 .reverse{
     flex-flow: row-reverse wrap;
     
@@ -23,21 +34,33 @@ body{
 }
 section{
 }
+.para{
+    font-size: 2.8vw;
+    text-align: center;
+    border-bottom: 0.2vw solid black;
+    border-top: 0.2vw solid black;
+    padding: 5.2vw;
+}
 div{
-    
+    font-size: 100%;
 }
 .topNav{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background: rgb(34, 228, 253);
+    font-size: 2vw;
+    justify-content: center;
+    align-items: center;
+    
 }
 nav{
     display: flex;
+    justify-content: space-around;
 }
 h1{
     padding: 0px;
     margin: 0px;
 }
 div{
-    background: rgb(173, 252, 252)
+    
 }
