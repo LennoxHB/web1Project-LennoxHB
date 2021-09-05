@@ -9,6 +9,9 @@ body{
     width:15%;
     height:auto;
 }
+ul{
+    margin: 0px;
+}
 .verticle{
     padding-top: 5vw;
     margin-bottom: 5vw;
@@ -21,7 +24,6 @@ body{
     line-height: 6.6vw;
     padding: 3vw;
 }
-
 .center{
     justify-content: center;
     align-items: center;
@@ -29,18 +31,14 @@ body{
 .flexible {
     display: flex; width: 100%;
 }
+.space{
+    justify-content: space-around;
+}
 .push-right{
     margin-left: auto;
 }
-
 .reverse{
     flex-flow: row-reverse wrap;
-    
-}
-.scroll{
-    
-}
-section{
 }
 .copyright{
     padding-left: 10.4vw;
@@ -73,6 +71,13 @@ h1{
     padding: 0px;
     margin: 0px;
 }
-div{
-    
+.project{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.basicborder{
+    border: 0.2vw solid black;;
+}
+.projectrow div{
+    border: 0.2vw solid black;;
 }
