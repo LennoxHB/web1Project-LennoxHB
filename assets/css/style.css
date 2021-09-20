@@ -29,7 +29,9 @@ ul{
     align-items: center;
 }
 .flexible {
-    display: flex; width: 100%;
+    display: flex; 
+    width: 100%;
+    box-sizing: border-box;
 }
 .space{
     justify-content: space-around;
