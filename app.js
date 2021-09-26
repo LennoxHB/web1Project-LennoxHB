@@ -13,6 +13,6 @@ app.set('views', path.join(__dirname, 'views'));
 app.get('/', (req, res) =>{ 
     res.render('index')
 });
-app.use("/form", form_router);
+app.use("/page", form_router);
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
