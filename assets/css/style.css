@@ -4,6 +4,7 @@ body{
     padding: 0px;
     margin: 0px;
     font-size: 3vw;
+    font-family: 'Whyte Inktrap',sans-serif;
 }
 .logo{
     width:15%;
@@ -82,4 +83,16 @@ h1{
 }
 .projectrow div{
     border: 0.2vw solid black;;
+}
+.projectrow div:hover{
+    background: rgb(15, 247, 247);
+}
+.collapse{
+    padding: 0 18px;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.2s ease-out;
+}
+.collapse.show{
+    height: 300px;
 }

@@ -9,10 +9,9 @@ window.addEventListener('load' , (event) => {
             event.target.style.background ="rgb(34, 228, 253)";
         });
     });
-
-
-
-    // document.querySelectorAll(".topNav").forEach(el => {
-    //         el.style.background = "red"
-    // });
+    document.querySelectorAll(".activate").forEach(el =>{
+        el.addEventListener('click' , (e) => {
+            e.target.nextElementSibling.classList.toggle("show")
+        });
+    });
 });
