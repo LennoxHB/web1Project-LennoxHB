@@ -60,11 +60,12 @@ div{
 .topNav{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    background: rgb(34, 228, 253);
+    background: transparent;
     font-size: 2vw;
     justify-content: center;
     align-items: center;
-    
+    top: 0;
+    position: sticky
 }
 nav{
     display: flex;
