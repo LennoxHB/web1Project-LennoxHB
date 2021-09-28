@@ -1,10 +1,10 @@
 body{
-    background: rgb(173, 252, 252);
-    color: orange;
+    font-family: 'Whyte Inktrap',sans-serif;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 0px;
     margin: 0px;
     font-size: 3vw;
-    font-family: 'Whyte Inktrap',sans-serif;
 }
 .logo{
     width:15%;
@@ -50,8 +50,8 @@ ul{
 .para{
     font-size: 2.8vw;
     text-align: center;
-    border-bottom: 0.2vw solid black;
-    border-top: 0.2vw solid black;
+    border-bottom: 0.2vw solid rgb(255, 255, 255);
+    border-top: 0.2vw solid rgb(255, 255, 255);
     padding: 5.2vw;
 }
 div{
@@ -80,13 +80,13 @@ h1{
     grid-template-columns: 1fr 2fr;
 }
 .basicborder{
-    border: 0.2vw solid black;;
+    border: 0.2vw solid rgb(255, 255, 255);;
 }
 .projectrow div{
-    border: 0.2vw solid black;;
+    border: 0.2vw solid rgb(255, 255, 255);;
 }
 .projectrow div:hover{
-    background: rgb(15, 247, 247);
+    background: rgb(175, 175, 175);
 }
 .collapse{
     padding: 0 18px;
