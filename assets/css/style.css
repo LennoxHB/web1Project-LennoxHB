@@ -57,25 +57,7 @@ ul{
 div{
     font-size: 100%;
 }
-.topNav.hide{
-    top: -100
-}
-.topNav{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background: transparent;
-    font-size: 2vw;
-    justify-content: center;
-    align-items: center;
-    top: 0;
-    position: fixed;
-    margin-bottom: 15vw;
-}
 
-nav{
-    display: flex;
-    justify-content: space-around;
-}
 h1{
     padding: 0px;
     margin: 0px;
@@ -101,6 +83,8 @@ h1{
 }
 .collapse.show{
     height: 300px;
+
+  /*Top Navigation bar */
 }
 .topNav nav a{
   position: relative;
@@ -120,3 +104,29 @@ h1{
     height: 1px;
     background-color: #fff;
   }
+  .topNav.hide{
+    top: -100
+}
+.topNav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: transparent;
+    font-size: 2vw;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    position: sticky;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+/*Bottom navigation bar*/
+.botNav{
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%
+}
