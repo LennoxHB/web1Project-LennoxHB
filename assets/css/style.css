@@ -156,3 +156,25 @@ nav{
 }
 
 
+/* Animation for the front page MOTD */
+div.motd span{    
+    animation: slidedown 2s, reveal 3s;
+}
+div.push-right span{
+    animation: slideleft 2s, reveal 3s;
+}
+
+@keyframes slidedown{
+    0% { margin-top:-150px; }
+    100% { margin-top:0px; }
+}
+@keyframes slideleft{
+    0% { margin-left:150px; }
+    100% { margin-left:0px; }
+}
+@keyframes reveal {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+
