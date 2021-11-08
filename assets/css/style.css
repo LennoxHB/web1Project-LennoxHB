@@ -25,17 +25,20 @@ ul{
     line-height: 6.6vw;
     padding: 3vw;
 }
-.center{
-    justify-content: center;
-    align-items: center;
-}
+
+/* Make an object flex */
 .flexible {
     display: flex; 
     width: 100%;
     box-sizing: border-box;
 }
+/* Various options for flex objects */
 .space{
     justify-content: space-around;
+}
+.center{
+    justify-content: center;
+    align-items: center;
 }
 .push-right{
     margin-left: auto;
@@ -43,6 +46,8 @@ ul{
 .reverse{
     flex-flow: row-reverse wrap;
 }
+
+/*  */
 .copyright{
     padding-left: 10.4vw;
     font-size: 1.2vw
