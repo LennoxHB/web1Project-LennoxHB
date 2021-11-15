@@ -77,6 +77,12 @@ ul{
     grid-template-columns: 1fr 2fr;
     border-top: 0.2vw solid rgb(255, 255, 255);
 }
+.expertPortrait{
+    position: absolute;
+    z-index: -1;
+    height: 50px;
+    width: 50px;
+}
 .sentance{
     font-size: 2.8vw;
     text-align: center;
