@@ -6,6 +6,7 @@ body{
     margin: 0px;
     font-size: 3vw;
 }
+
 .logo{
     width:15%;
     height:auto;
@@ -52,11 +53,33 @@ ul{
     padding-left: 10.4vw;
     font-size: 1.2vw
 }
-.para{
-    font-size: 2.8vw;
-    text-align: center;
+.border{
     border-bottom: 0.2vw solid rgb(255, 255, 255);
     border-top: 0.2vw solid rgb(255, 255, 255);
+}
+.para{
+    text-indent: 5vw;
+    font-size: 2.0vw;
+    /* padding: 5.2vw; */
+    width: 60%;
+}
+.experts{
+    width: 70%
+}
+.expertsList{
+    /* width: 100%; */
+}
+.expertsList>div{
+    
+    padding-top: 1vw;
+    padding-bottom: 2vw;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border-top: 0.2vw solid rgb(255, 255, 255);
+}
+.sentance{
+    font-size: 2.8vw;
+    text-align: center;
     padding: 5.2vw;
 }
 div{
